@@ -57,7 +57,7 @@ namespace Microsoft.Teams.Apps.CompanyCommunicator.Common.Services.AdaptiveCard
                 Size = AdaptiveTextSize.ExtraLarge,
                 Weight = AdaptiveTextWeight.Bolder,
                 Wrap = true,
-                HorizontalAlignment = HorizontalAlignment.Right
+               
             });
 
             if (!string.IsNullOrWhiteSpace(imageUrl))
@@ -68,7 +68,7 @@ namespace Microsoft.Teams.Apps.CompanyCommunicator.Common.Services.AdaptiveCard
                     Spacing = AdaptiveSpacing.Default,
                     Size = AdaptiveImageSize.Stretch,
                     AltText = string.Empty,
-                   
+                    
                 });
             }
 
@@ -78,7 +78,7 @@ namespace Microsoft.Teams.Apps.CompanyCommunicator.Common.Services.AdaptiveCard
                 {
                     Text = summary,
                     Wrap = true,
-                    HorizontalAlignment = HorizontalAlignment.Right
+                    
                 });
             }
 
@@ -90,7 +90,7 @@ namespace Microsoft.Teams.Apps.CompanyCommunicator.Common.Services.AdaptiveCard
                     Size = AdaptiveTextSize.Small,
                     Weight = AdaptiveTextWeight.Lighter,
                     Wrap = true,
-                    HorizontalAlignment = HorizontalAlignment.Right
+                  
                 });
             }
 
