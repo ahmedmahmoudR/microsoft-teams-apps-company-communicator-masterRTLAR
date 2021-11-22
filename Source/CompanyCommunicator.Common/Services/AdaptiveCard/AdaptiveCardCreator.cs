@@ -68,7 +68,7 @@ namespace Microsoft.Teams.Apps.CompanyCommunicator.Common.Services.AdaptiveCard
                     Spacing = AdaptiveSpacing.Default,
                     Size = AdaptiveImageSize.Stretch,
                     AltText = string.Empty,
-                    HorizontalAlignment = HorizontalAlignment.Right
+                   
                 });
             }
 
