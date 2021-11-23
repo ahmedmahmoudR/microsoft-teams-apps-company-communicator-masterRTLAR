@@ -51,15 +51,7 @@ namespace Microsoft.Teams.Apps.CompanyCommunicator.Common.Services.AdaptiveCard
             var version = new AdaptiveSchemaVersion(1, 0);
             AdaptiveCard card = new AdaptiveCard(version);
 
-            card.Body.Add(new AdaptiveTextBlock()
-            {
-                Text = title,
-                Size = AdaptiveTextSize.Small,
-                Weight = AdaptiveTextWeight.Lighter,
-                Wrap = true,
-                
-               
-            });
+            
 
             if (!string.IsNullOrWhiteSpace(imageUrl))
             {
