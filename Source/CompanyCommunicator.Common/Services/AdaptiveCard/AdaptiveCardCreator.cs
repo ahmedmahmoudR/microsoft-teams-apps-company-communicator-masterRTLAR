@@ -53,11 +53,11 @@ namespace Microsoft.Teams.Apps.CompanyCommunicator.Common.Services.AdaptiveCard
 
             card.Body.Add(new AdaptiveTextBlock()
             {
-                Text = title,
+                Text = "Hello World",
                 Size = AdaptiveTextSize.ExtraLarge,
                 Weight = AdaptiveTextWeight.Bolder,
                 Wrap = true,
-                HorizontalAlignment = HorizontalAlignment.Right,
+                
                
             });
 
