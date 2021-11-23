@@ -53,9 +53,9 @@ namespace Microsoft.Teams.Apps.CompanyCommunicator.Common.Services.AdaptiveCard
 
             card.Body.Add(new AdaptiveTextBlock()
             {
-                Text = "Hello World",
-                Size = AdaptiveTextSize.ExtraLarge,
-                Weight = AdaptiveTextWeight.Bolder,
+                Text = title,
+                Size = AdaptiveTextSize.Small,
+                Weight = AdaptiveTextWeight.Lighter,
                 Wrap = true,
                 
                
